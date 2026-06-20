@@ -1,5 +1,4 @@
 import { Instagram, Facebook, Phone } from "lucide-react";
-import { FaWhatsapp } from "react-icons/fa";
 
 export function Footer() {
   return (
@@ -15,14 +14,11 @@ export function Footer() {
               Donde la tradición se reinventa. Cocina de autor con alma local en un ambiente sofisticado y sensual.
             </p>
             <div className="flex items-center gap-4 pt-2">
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary hover:text-[#1C1C1C] transition-colors text-primary">
+              <a href="https://www.instagram.com/tasca_los_genetos/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary hover:text-[#1C1C1C] transition-colors text-primary">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary hover:text-[#1C1C1C] transition-colors text-primary">
+              <a href="https://www.facebook.com/p/Tasca-Los-Genetos-61555293333621/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary hover:text-[#1C1C1C] transition-colors text-primary">
                 <Facebook size={20} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center hover:bg-primary hover:text-[#1C1C1C] transition-colors text-primary">
-                <FaWhatsapp size={20} />
               </a>
             </div>
           </div>
